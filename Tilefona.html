@@ -2,86 +2,162 @@
 
 <html lang ="en"> 
 
-<title>The Phonebook </title>
-
+<title>The Phonebooth </title>
+<style>
+    head{color: white;}
+</style>
 <head>Eδώ τα Καλά Τηλέφωνα!</head>
 
 <br>
 
-<br>
 
-<section>
+<body style="background-color: turquoise;">
 
-    <table>
-        <caption> Products available:</caption>
-        
-        <tr>
-            <th>Image:</th> 
-            <th>Brand Name :</th>
-            <th>Model Name:</th>
-            <th> OS :</th>
-            <th>screen size :</th>
-        </tr>
+    <span>Gamw to </span>
+    <section>
 
-        <tr>
-            <td>
-                <img Width="100" Height="100"
-                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000.jpg" alt="">
-            </td>
+        <table style="background-color: rgb(255, 255, 255);">
+       
+            <h1 style="color: white;"> Products available:<h1>
+        <style>
+            th{border-style: solid;}
+            th{border-color: turquoise;}
+            th{font-family: sans-serif;}
+            td{border-style: solid;}
+            td{border-color: turquoise;}
+            td{font-family: sans-serif;}
+        </style>
+            <tr >
 
-            <td>Iphone   </td>
-            <td> 13 pro max </td>
-            <td>IOS 15 </td>
-            <td> 6.68 inches </td>
+                <th style="text-align: left;">Image:</th> 
+                <th style="text-align: left;">Brand Name :</th>
+                <th style="text-align: left;">Model Name:</th>
+                <th style="text-align: left;"> OS :</th>
+                <th style="text-align: left;">screen size :</th>
+            </tr>
 
-        </tr>
+
+
+            <tr>
+                <td>
+                    <img Width="100" Height="100"
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000.jpg" alt="Iphone 13">
+                </td>
+
+                <td>Iphone   </td>
+                <td> 13 pro max </td>
+                <td>IOS 15 </td>
+                <td> 6.68 inches </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <img Width="100" Height="100"
+                    src="https://mobiletrans.wondershare.com/images/en/article-images/samsung-galaxy-S21-Ultra-5G.jpg" alt="Samsung Galazy 21 Ultra">
+                </td>
+
+                <td>Samsung </td>
+                <td> Galaxy S21 Ultra 5G </td>
+                <td>Android 11</td>
+                <td> 6.8 inches </td>
+
+            </tr>
    
-        <tr>
-        <form action="data.html"method="POST"></form>
-            <td>
-                <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <label for="file">Image:</label>
-                <input type="file" name="pic" id="pic">
-                </form>
-            </td>
+            <tr>
+                <td>
+                    <img Width="100" Height="100"
+                    src="https://mobiletrans.wondershare.com/images/en/article-images/mi-5g-2.jpg" alt="xiaomi Mi 10 5G">
+                </td>
+                
+                <td>Xiaomi </td>
+                <td>Mi 10 5G </td>
+                <td>Android 11 </td>
+                <td> 6.67 inches </td>
 
-            <td>
-                <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <label for="brand">Brand Name:</label>
-                <input type="text" name="brand" id="brand">
-                </form>
-            </td>
+            </tr>
+   
+            <tr>
+                <td>
+                    <img Width="100" Height="100"
+                    src="https://www.electroline.com.cy/wp-content/uploads/2021/05/IT49845_1-1620856052-260x260.jpg" alt="Huaweii p 40 pro">
+                </td>
+
+                <td>Huaweii </td>
+                <td> p40 pro </td>
+                <td>Android 11 </td>
+                <td> 6.68 inches </td>
+
+            </tr>
+   
+            <tr>
+                <td>
+                    <img Width="100" Height="100"
+                    src="https://www.electroline.com.cy/wp-content/uploads/2021/11/IT50524_1-1637334835-420x420.jpg" alt="Alcatel">
+                </td>
+
+                <td>Alcater    </td>
+                <td> 1 SE</td>
+                <td>Android 10 </td>
+                <td> 6.48 inches </td>
+
+            </tr>
+   
+     
+            <tr>
+              
+            
+                <td>
+                    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+                    <label for="file">Image:</label>
+                    <input type="file" name ="pic" id="pic">
+                    </form>
+                   <!--<form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="Get" enctype="multipart/form-data"></form>-->
+                </td>
+
+                <td>
+                    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+                    <label for="brand">Brand Name:</label>
+                    <input type="text" name ="brand" id="brand">
+                    </form>
+                </td>
         
-            <td>
-                <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <lab el for="Model">Model Name:</label>
-                <input type="text" name="model" id="model">
-                </form>
-            </td>
+                <td>
+                    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+                    <label for="Model">Model Name:</label>
+                    <input type="text" name="model" id="model">
+                    </form>
+                </td>
         
-            <td>
-                 <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <label for="OS">OS:</label>
-                <input type="text" name="OS" id="OS">
-                </form>
-            </td>
+                <td>
+                    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+                    <label for="OS">OS:</label>
+                    <input type="text" name ="OS" id="OS">
+                    </form>
+                </td>
     
-            <td> <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <label for="Screen Size">Screen Size:</label>
-                <input type="text" name="ScreenSize" id="ScreenSize">   
-                </form>
-            </td>
-
-            <td>  <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
-                <label>Submit data : </label>
-                <input type="submit">
-                </form>
-            </td>
+                <td>
+                    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+                    <label for="Screen Size">Screen Size:</label>
+                    <input type="text" name="ScreenSize" id="ScreenSize">   
+                    </form>
+                    
+                </td>    
+                   
+                </td>
         
-    </tr>
+            </tr>
 
-</table>
-</section>
+        </table>    
+
+    </section>
+
+    <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" enctype="multipart/form-data">
+      
+        <input type="submit" >
+    </form>
+
+</body>
 
 
 
