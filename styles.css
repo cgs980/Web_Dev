@@ -1,0 +1,38 @@
+    h1,p,body{
+        color:white;
+        font-family: sans-serif;
+        
+    }
+    
+    body{background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);}
+    
+    table{background-color: black;
+    border:2px solid rgb(123, 3, 242)}
+    
+    th{text-align: left;
+        color:white;
+    background-color: blue;
+}
+    
+    
+    
+    
+    
+    td{
+        color: white;
+        font-family: sans-serif;
+    
+        font-weight: bold;
+        
+      
+    }    
+    
+ 
+    tr:hover{background-color: rgb(214, 214, 214);}
+   
+
+    
+    
+
+                    
+        
