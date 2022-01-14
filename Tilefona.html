@@ -3,13 +3,41 @@
 <html lang ="en"> 
 
 <title>The Phonebooth &copy; </title>
-<link rel="icon" href="https://o.remove.bg/downloads/4da25682-8bf5-4c48-978f-e3f14ae78099/red-london-street-phone-booth-vector-20473780-removebg-preview.png">
+<link rel="icon" href="https://o.remove.bg/downloads/130e939b-46d1-4776-a9f5-723ccce12a8e/2SAH8jM-british-phone-booth-clipart-removebg-preview.png">
 <head>  
     <link rel="stylesheet" href="styles.css"> 
 
-</head>
-<h2><img width= "50" hieght="50" src="https://o.remove.bg/downloads/4b1ced9c-657f-44ff-952f-976571a72f22/3462504-removebg-preview.png" alt="phonebooth &copy;">Phonebooth &copy;</h1>
 
+</head>
+<header>
+    
+    <table>
+
+        <th> Phonebooth &copy; <th>
+        
+    
+            <th>
+                <a href="#return">Returns </a>
+            </tH>            
+                
+            <th>
+                <a href="#shipping"> Shipping</a>
+            </th>
+                
+            <th> 
+                <a href="#contact"> Contact Us</a>
+            </th>      
+            
+            <th>
+                <a href="#products">Products</a>
+            </th>
+            
+            <th>
+                <a href="#Taxes">Taxes</a>
+            </th>    
+    </table>          
+
+</header>
 
 <h1>Even Superman uses it....</h1>
 <body>
@@ -19,25 +47,28 @@
 <br>
 
 
+
 <body >
     <section>
 
         <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" >
         
+            
             <table>
 
-        
-                <caption> Products available:<caption>
+                
+                <caption id="products">Products :<caption>
         
 
                 <tr>
                 
                 
-                    <th> <span>Image:</span></th> 
-                    <th> <span>Brand Name :</span></th>
-                    <th> <span>Model Name:</span></th>
-                    <th><span>OS :</span> </th>
-                    <th><span>screen size :</span></th>
+                    <th> Image:</th> 
+                    <th> Brand Name :</th>
+                    <th> Model Name:</th>
+                    <th>OS :</th>
+                    <th>screen size :</th>
+                    <th></th>
                     
                     
                 </tr>
@@ -60,7 +91,7 @@
                 <tr>
                     <td>
                         <img Width="100" Height="100"
-                        src="https://o.remove.bg/downloads/4e512517-07f3-42f1-b9b2-130a6431921e/0016962_samsung-galaxy-s21-ultra-5g_808-removebg-preview.png" alt="Samsung Galazy 21 Ultra">
+                        src="https://images.samsung.com/uk/smartphones/galaxy-s21-ultra-5g/images/galaxy-s21-ultra_banner_smart-switch_m.jpg" alt="Samsung Galazy 21 Ultra">
                     </td>
 
                     <td>Samsung </td>
@@ -73,7 +104,7 @@
                 <tr>
                     <td>
                         <img Width="100" Height="100"
-                        src="https://o.remove.bg/downloads/de021c20-0126-4a14-bb54-1630ec5ee0f1/Xiaomi_Mi_10_4zu3-removebg-preview.png" alt="xiaomi Mi 10 5G">
+                        src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/10_pro_246.jpg" alt="xiaomi Mi 10 5G">
                     </td>
                     
                     <td> Xiaomi  </td>
@@ -86,7 +117,7 @@
                 <tr>
                     <td>
                         <img Width="100" Height="100"
-                        src="https://o.remove.bg/downloads/72ce4399-56d5-4bc1-8f4b-7038f6c1d2f7/huawei_p40_8gb_128gb_ds_black_11_ad_l-removebg-preview.png" alt="Huaweii p 40 pro">
+                        src="https://i.gadgets360cdn.com/large/huawei_p40_pro_plus_back_1585239048100.jpg" alt="Huaweii p 40 pro">
                     </td>
 
                     <td>Huaweii </td>
@@ -99,10 +130,10 @@
                 <tr>
                     <td>
                         <img Width="100" Height="100"
-                        src="https://o.remove.bg/downloads/af0a5cb2-82e3-4fb1-bf87-892fe2653cb1/1648396782-removebg-preview.png" alt="Alcatel 1 SE">
+                        src="https://www.alcatelmobile.com/wp-content/uploads/2020/04/Alcatel-1SE_2020_comp02_1024x1366_01-1.jpg" alt="Alcatel 1 SE">
                     </td>
 
-                    <td>Alcater    </td>
+                    <td>Alcatel </td>
                     <td> 1 SE</td>
                     <td>Android 10 </td>
                     <td> 6.48 inches </td>
@@ -116,8 +147,8 @@
                     <td>
                     <span>
                         
-                        <label for="file">Image:</label>
-                        <input type="file" name ="image" id="image">
+                        <label for="url">Image:</label>
+                        <input type="url" name ="image" id="image" required>
                         </form>
                     <!--<form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="Get" enctype="multipart/form-data"></form>-->
                     </span>
@@ -127,7 +158,7 @@
                         <span>
                         
                         <label for="brand">Brand Name:</label>
-                        <input type="text" name ="brand" id="brand">
+                        <input type="text" name ="brand" id="brand" required>
                         
                     </span>
                     </td>
@@ -136,7 +167,7 @@
                         <span>
                         
                         <label for="Model">Model Name:</label>
-                        <input type="text" name="model" id="model">
+                        <input type="text" name="model" id="model" required>
                         
                     </td>
             
@@ -144,7 +175,7 @@
                         <span>
                     
                         <label for="OS">OS:</label>
-                        <input type="text" name ="os" id="os">
+                        <input type="text" name ="os" id="os" required>
                     
                     </span>
                     </td>
@@ -152,14 +183,15 @@
                     <td>
                         <span>
                         
-                        <label for="Screen Size">Screen Size:</label>
-                        <input type="text" name="screensize" id="screensize">   
-                        
+                        <label for="Screen Size">Screen Size:(inches)</label>
+                        <input type="number" name="screensize" id="screensize" required>   
+                       
                         
                     </span>
                     </td>    
                     <td>
                     <input type="submit">
+
                 </td>
     
             </tr>
@@ -171,25 +203,78 @@
     </section>
 
     <Section>
+        <div class="LegalTerms"> 
+            <h3 id="return">Returns: </h3>    
+            <p>At Phonebooth,  all of our products with up to<strong> 2 years waranty !!! </strong></p>
+            <br>
+            <br>
+        </div>
         
-        <h3>Returns: </h3>
+        <div class="LegalTerms">
         
-        <p>At Phonebooth,  all of our products with up to<strong> 2 years warantee ! </strong></p>
-<br>
-        <h3>Shipping:</h3> 
+            <h3 id="shipping">Shipping:</h3> 
+            
+            <p>We are pround to anounce that we have expanded our shiping areas to the Netherlands <strong> FOR FREE !</strong> </p> 
+            <br>
+            <br>
         
-        <p>w have expanded our shipping areas , to the whole Netherlands<strong>for free!</strong> </p> 
-        
+        </div>
+
+        <div class="LegalTerms">
+            <h3 id="contact">Contact Us:</h3>
+            <p> <strong>Email: </strong>repania.phones@gmail.nl <br> <strong> Call us: </strong>0030694052745</p>
+            <br>
+            <br>
+        </div>    
+
+        <div class="LegalTerms">
+            <h3 id="Taxes">Taxes :</h3>
+            <p>In case you are wondering , Phonebooth provides :</p>
+            <ul>
+                <li>
+                    Crazy low prices
+                </li>
+                <li>
+                    With 19 % V.A.T. 
+                </li>
+            </ul>
+        </div>
 
     </Section>
-
-    
-      
-       
-
-   
-
 </body>
+
+<footer>
+
+    <table>
+
+        <th> Phonebooth &copy; <th>
+        
+    
+        <th>
+            <a href="#return">Returns </a>
+        </tH>            
+            
+        <th>
+            <a href="#shipping"> Shipping</a>
+        </th>
+            
+        <th> 
+            <a href="#contact"> Contact Us</a>
+        </th>      
+        
+        <th>
+            <a href="#products">Products</a>
+        </th>
+        
+        <th>
+            <a href="#Taxes">Taxes</a>
+        </th>    
+    
+    </table>          
+
+      
+
+</footer>
 
 
 

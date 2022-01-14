@@ -1,38 +1,143 @@
-    h1,p,body{
-        color:white;
-        font-family: sans-serif;
-        
-    }
-    
-    body{background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);}
-    
-    table{background-color: black;
-    border:2px solid rgb(123, 3, 242)}
-    
-    th{text-align: left;
-        color:white;
-    background-color: blue;
-}
-    
-    
-    
-    
-    
-    td{
-        color: white;
-        font-family: sans-serif;
-    
-        font-weight: bold;
-        
-      
-    }    
-    
- 
-    tr:hover{background-color: rgb(214, 214, 214);}
+
+
+
+body table
+{
+    background-color: black;
    
+}
 
+body table caption{
+    font-size: xx-large;
+    text-decoration: white;
+    text-size-adjust: 20pt;
+    text-align: left;
+}
+body table{
+    text-align: center;    line-height: 50px;    height: 50px;    width:100%;
+}
+body th
+{
+    text-align: left;
+    color:white;
+    background-color: blueviolet;
+
+
+}
+.LegalTerms
+{
+    color: white;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;    
+}        
+
+h1,h2,h3
+{
+    text-align: left;
+    width:100%;
+}
+
+
+body td
+{
+
+    color: white;
+    font-family: sans-serif;
+
+    font-weight: bold;
     
     
+}    
 
-                    
-        
+body tr:hover{background-color: rgb(214, 214, 214);}
+
+header,header table
+
+{   border: none;
+    background-color: blueviolet;
+    
+  
+   
+    position: static;
+}
+ header th, header tr:hover
+{
+    color: black;
+    background-color:transparent;
+    text-shadow: black;
+}
+
+header  th:hover
+{
+    
+    background-color: rgb(255, 255, 255); 
+
+} 
+
+header table
+{
+    text-align: center;    line-height: 50px;    height: 50px;    width:100%;
+}
+
+p,body
+{
+    color:white;
+    font-family: sans-serif;
+    
+}
+
+body
+{
+    background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif) ;
+    background-repeat: repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer,footer table
+
+{   border: none;
+    background-color: blueviolet;
+  
+    
+    position: static;
+}
+footer th, footer tr:hover
+{
+    color: black;
+    background-color:transparent;
+   
+}
+
+footer th:hover
+{
+    
+    background-color: rgb(255, 255, 255); 
+
+} 
+
+footer table
+{
+    text-align: center;    line-height: 50px;    height: 50px;    width:100%;
+}
+
+
+input[type=submit]
+{
+    background: blueviolet;
+    color:white;
+    border-style:outset;
+    border-color:blueviolet;
+    height:50px;
+    width:100px;
+    font:bold15px arial,sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-shadow:none;
+}      
