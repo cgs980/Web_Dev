@@ -1,16 +1,23 @@
+:root
+{
+    --main-color: black; 
+    --bg-color: black;
+    --header-footer-color:blueviolet;
+    
+    --header-footer-bg:blueviolet;
+}
 
 
 
 body table
 {
-    background-color: black;
+    background-color: var(--bg-color);
    
 }
 
 body table caption{
     font-size: xx-large;
     text-decoration: white;
-    text-size-adjust: 20pt;
     text-align: left;
 }
 body table{
@@ -20,22 +27,19 @@ body th
 {
     text-align: left;
     color:white;
-    background-color: blueviolet;
+    background-color: var(--header-footer-color);
 
 
 }
 .LegalTerms
 {
     color: white;
-    
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;    
-}        
+}
 
 h1,h2,h3
 {
+    font:bold 40pt/40pt normal sans-serif ;
+    font-variant: normal;
     text-align: left;
     width:100%;
 }
@@ -45,7 +49,7 @@ body td
 {
 
     color: white;
-    font-family: sans-serif;
+
 
     font-weight: bold;
     
@@ -57,7 +61,7 @@ body tr:hover{background-color: rgb(214, 214, 214);}
 header,header table
 
 {   border: none;
-    background-color: blueviolet;
+    background-color: var(--header-footer-color);
     
   
    
@@ -65,9 +69,9 @@ header,header table
 }
  header th, header tr:hover
 {
-    color: black;
+    color:var(--bg-color);
     background-color:transparent;
-    text-shadow: black;
+    
 }
 
 header  th:hover
@@ -91,26 +95,37 @@ p,body
 
 body
 {
-    background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif) ;
+   background: var(--bg-color); background-image: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif) ;
     background-repeat: repeat;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
+   
+      
+}
 
+h1 
+{
+text-transform: uppercase;
 }
 
 footer,footer table
 
 {   border: none;
-    background-color: blueviolet;
+    background-color: var(--header-footer-color);
   
     
     position: static;
 }
 footer th, footer tr:hover
 {
-    color: black;
+    color: var(--main-color);
     background-color:transparent;
    
 }
@@ -130,13 +145,13 @@ footer table
 
 input[type=submit]
 {
-    background: blueviolet;
+    background:var(--header-footer-bg);
     color:white;
     border-style:outset;
-    border-color:blueviolet;
+    border-color:var(--header-footer-color);
     height:50px;
     width:100px;
-    font:bold15px arial,sans-serif;
+    font-family:sans-serif;
     font-size: large;
     font-weight: bold;
     text-shadow:none;
