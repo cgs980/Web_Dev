@@ -7,25 +7,26 @@
     --header-footer-bg:blueviolet;
 }
 
-
-
 body table
 {
     background-color: var(--bg-color);
    
 }
 
-body table caption{
+body table caption
+{
     font-size: xx-large;
     text-decoration: white;
     text-align: left;
 }
-body table{
-    text-align: center;    line-height: 50px;    height: 50px;    width:100%;
+body table
+{
+    text-align: center;    line-height: 50px;    height: 50px; width:100%;   
     page-break-after: auto;
     page-break-before: auto;
 }
 body th
+
 {   font-size: x-large;
     text-align: left;
     color:white;
@@ -46,16 +47,17 @@ h1,h2,h3
     width:100%;
 }
 
-p{
+p
+{
     font: 15pt/15pt;
 }
 
-body td
+body td,p
 {
 
     color: white;
 
-
+    font-size: medium;
     font-weight: bold;
     
     
@@ -66,7 +68,9 @@ body tr:hover{background-color: rgb(214, 214, 214);}
 
 header,header table
 
-{   border: none;
+{   
+    color:grey;
+    border: none;
     background-color: var(--header-footer-color);
     
   
@@ -75,7 +79,7 @@ header,header table
 }
  header th, header tr:hover
 {
-    color:var(--bg-color);
+    color:grey;
     background-color:transparent;
     
 }
@@ -89,7 +93,7 @@ header  th:hover
 
 header nav
 {
-    text-align: center;    line-height: 50px;    height: 50px;    width:100%;
+    text-align: center;    line-height: 50px;    height: 50px;    width:100% ;
 }
 
 p,body
@@ -107,10 +111,10 @@ body
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     
    
       
@@ -123,26 +127,28 @@ h1
 
 footer,footer table
 
-{   border: none;
+{  
+     border: none;
     background-color: var(--header-footer-color);
-  
-    
-    position: static;
 }
 footer th, footer tr:hover
 {
-    color: var(--main-color);
+    color: grey;
     background-color:transparent;
    
 }
 
 footer th:hover
 {
-    
+    color: grey;
     background-color: rgb(255, 255, 255); 
 
-} 
-
+}
+ 
+footer table
+{
+    caption-side: left  ;
+}
 footer table
 {
     text-align: center;    line-height: 50px;    height: 50px;    width:100%;
@@ -157,12 +163,13 @@ input[type=submit]
     border-style:outset;
     border: var(--header-footer-scolor) outset ;
     height:50px;
-    width:100px;
+    width: 100px;;
     font-family:sans-serif;
     font-size: large;
     font-weight: bold;
     text-shadow:none;
 } 
+
 input:focus
 {
     border-color: black;
@@ -171,14 +178,18 @@ input:focus
     border-left: black;
     border-right: black;
     border-bottom: black;
-border-style: solid;
+    border-style: solid;
 }
 
 dl
 {
-    list-style: square inside
+    font-size: medium;
+    list-style: square inside;
 }
-ul{
+
+ul
+{
+    font-size: medium;
     list-style-type: square;
     list-style-position: inside;
     list-style-image: none;
@@ -186,28 +197,164 @@ ul{
 
 img
 {
-    vertical-align: left;
+    vertical-align: left; 
+    float:left;  
 }
 
 a:visited{color:grey}
 
-@media screen and (max-height:320px ){.proposal{height: 320px;}}
-@media screen and (max-width:480px ){.proposal{width: 480px;}}
-@media print and(max-width:100% ){.proposal{ width:fit-content;}}
-@media print and(max-width:100% ){.proposal{ width:fit-content;}}
+
 
 
 
 a:link
 {
+    color: grey;
     text-decoration: none;
 }
-a:active{
-text-decoration: underline;
+a:active
+{
+    text-decoration: underline;
 }
 
-div
-{   columns:2;
+div dl, ul
+{   
+    columns:2;
     widows:2; 
     orphans: 2;   
+}
+#superman{
+    margin-left:-20pt;
+}
+
+/* Phone Portrait and landscape */   
+@media screen and (max-width:480px) 
+{
+    .LegalTerms
+
+    {
+        visibility: hidden;
+        width: 80vw;
+    }
+
+   
+
+	table, thead, tbody, th, td, tr 
+    { 
+		display: block; 
+	}
+	
+	thead tr
+    { 
+		position: absolute;
+		
+    }
+	
+	tr { border: 1px solid rgb(0, 0, 0);
+    background-color: unset; }
+   
+    img
+    {
+        float: none;
+    }
+    
+	td 
+    { 
+		background-color: black;
+		border: none;
+		border-bottom: 1px solid blueviolet; 
+		position: relative;
+        margin-bottom: 20px;    
+
+	}
+	td:hover
+    {
+        background-color:wheat
+    }
+
+	td:before 
+    { 
+		
+		position: absolute;
+		padding-right: 10px; 
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+	
+		
+	}
+    
+    
+    #logo 
+    {
+        visibility: visible;
+    }
+  
+
+   h3, div, div dl, ul
+    {
+        visibility: hidden;
+        columns: 1;
+        widows: 0;
+        orphans:0;
+        width: 80vw;
+        font-size:5vw; 
+    }
+    
+    input,label
+    {
+        text-align: center;
+    }
+    
+    h1
+    {
+        vertical-align: top;
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    header, footer
+    {
+        visibility: hidden;
+    }
+
+   
+
+ 
+}
+
+@media print 
+
+{
+
+    header,footer
+    {
+        visibility: hidden;
+
+    }
+    
+    input, label
+    {
+        
+        visibility: hidden;
+    }
+    
+    #superman
+    { 
+        float: none;
+        visibility: hidden;
+    }
+
+    
+    body,p,h1,h2,h3,dl,ul, body td,body th,tr,table,ol,dt,dd,caption
+    {
+        color: black;
+        
+    }
+    
+
+    th
+    {
+        text-align: center;
+    }
 }

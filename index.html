@@ -1,0 +1,328 @@
+<!--Created and tested by: Panagiotis Kyriakou G. and Christos Giorgallis (Lab-94) -->
+
+ <!--TESTED WITH : 
+                Microsoft Edge -> behaved as expected, exactly as the default browser, printing and 320x480 device attributes were as expected .   
+                Chrome-> behaved as expected, exactly as it is the default browser.
+                Firefox->behaved mostly as expected , exept the widows and the orphans weren't visible , also the submit button became submit quest for some reason...-->
+<!DOCTYPE html>
+ 
+<html lang ="en">
+
+
+    <title>The Phonebooth &copy; </title>
+  
+    <link rel="icon" href="https://townsquare.media/site/366/files/2020/02/bill-and-ted-phone-booth-replica-cubicall.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89">
+
+    <head>  
+        
+        <meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1 ">
+        <link rel="stylesheet" href="styles.css"> 
+        
+    
+
+    </head>
+
+    <header>
+    
+        
+        <table>
+
+            <th>  Phonebooth &copy;<th>
+            
+        
+                <th>
+                    <a href="#return">Returns </a>
+                </th>            
+                    
+                <th>
+                    <a href="#shipping"> Shipping</a>
+                </th>
+                    
+                <th> 
+                    <a href="#contact"> Contact Us</a>
+                </th>      
+                
+                <th>
+                    <a href="#products">Products</a>
+                </th>
+                
+                <th>
+                    <a href="#Taxes">Taxes</a>
+                </th>    
+        </table>          
+
+    </header>
+    <h1 id="logo">Phonebooth &copy;</h1>
+    <h1> Superman uses it....</h1>
+    
+    <figure>
+        <img id="superman" width="200" height="200" src="https://www.supermanhomepage.com/images/phonebooth/bell_booth1.jpg" >
+        <figcaption></figcaption>
+    </figure>
+    
+    <body>
+        <p>Here on the Phonebooth, we have searced and found the most cutting edge phones, on the <strong>craziest prices .</strong>  You can check it youselves!</p>
+    </body>
+
+    <br>
+
+
+
+    <body>
+        <section>
+
+            <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc"method="POST" >
+            
+                
+                <table>
+
+                    
+                    <caption id="products">Products:<caption>
+            
+
+                    <tr>
+                    
+                    
+                        <th> Image:</th> 
+                        <th> Brand Name :</th>
+                        <th> Model Name:</th>
+                        <th>OS :</th>
+                        <th>screen size :</th>
+                        <th></th>
+                        
+                        
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <img Width="100" Height="100"
+                            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1631220221000.jpg" alt="Iphone 13">
+                        </td>
+
+                        <td>Apple </td>
+                        <td> IPhone 13 pro max </td>
+                        <td>IOS 15 </td>
+                        <td> 6.68 inches </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img Width="100" Height="100"
+                            src="https://images.samsung.com/uk/smartphones/galaxy-s21-ultra-5g/images/galaxy-s21-ultra_banner_smart-switch_m.jpg" alt="Samsung Galazy 21 Ultra">
+                        </td>
+
+                        <td>Samsung </td>
+                        <td> Galaxy S21 Ultra 5G </td>
+                        <td>Android 11</td>
+                        <td> 6.8 inches </td>
+
+                    </tr>
+        
+                    <tr>
+                        <td>
+                            <img Width="100" Height="100"
+                            src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/10_pro_246.jpg" alt="xiaomi Mi 10 5G">
+                        </td>
+                        
+                        <td> Xiaomi  </td>
+                        <td>Mi 10 5G </td>
+                        <td>Android 11 </td>
+                        <td> 6.67 inches </td>
+
+                    </tr>
+        
+                    <tr>
+                        <td>
+                            <img Width="100" Height="100"
+                            src="https://i.gadgets360cdn.com/large/huawei_p40_pro_plus_back_1585239048100.jpg" alt="Huaweii p 40 pro">
+                        </td>
+
+                        <td>Huaweii </td>
+                        <td> p40 pro </td>
+                        <td>Android 11 </td>
+                        <td> 6.68 inches </td>
+
+                    </tr>
+        
+                    <tr>
+                        <td>
+                            <img Width="100" Height="100"
+                            src="https://www.alcatelmobile.com/wp-content/uploads/2020/04/Alcatel-1SE_2020_comp02_1024x1366_01-1.jpg" alt="Alcatel 1 SE">
+                        </td>
+
+                        <td>Alcatel </td>
+                        <td> 1 SE</td>
+                        <td>Android 10 </td>
+                        <td> 6.48 inches </td>
+
+                    </tr>
+        
+            
+                    <tr>
+                    
+                    
+                        <td>
+                            <span>
+                            
+                                <label for="url">Image ( URL ):</label>
+                                <input type="url" name ="image" id="image" required>
+                                </form>
+                        
+                            </span>
+                        </td>
+
+                        <td>
+                            <span>
+                            
+                                <label for="brand">Brand Name:</label>
+                                <input type="text" name ="brand" id="brand" required>
+                            
+                            </span>
+                        </td>
+                        
+                        <td>
+                            <span>
+                            
+                            <label for="Model">Model Name:</label>
+                            <input type="text" name="model" id="model" required>
+                            
+                        </td>
+                
+                        <td>
+                            <span>
+                        
+                                <label for="OS">Operating System:</label>
+                                <input type="text" name ="os" id="os" required>
+                        
+                            </span>
+                        </td>
+            
+                        <td>
+                            <span>
+                            
+                            <label for="Screen Size">Screen Size:(in)</label>
+                            <input type="number" name="screensize" id="screensize" required>   
+                        
+                            
+                        </span>
+                        </td>    
+                        <td>
+                        <input type="submit">
+
+                    </td>
+        
+                </tr>
+
+                </table>    
+        
+            </form>
+        
+        </section>
+
+        <Section>
+            <h3 id="return">Returns: </h3> 
+            
+            <div class="LegalTerms"> 
+                
+                <p>At Phonebooth,  all of our products with up to<strong id="2231"> 2 years waranty !!! </strong></p>
+                <br>
+                <br>
+            </div>
+        
+            <h3 id="shipping">Shipping:</h3> 
+            <div class="LegalTerms">
+            
+                <p>We are proud to anounce that we have expanded our shiping areas to the Netherlands <strong>FOR FREE !</strong> </p> 
+                <br>
+                <br>
+            
+            </div>
+
+            <h3 id="contact">Contact Us:</h3>
+            
+            <div class="LegalTerms">    
+            
+                <dl>
+                    <dt>
+                        <strong><em>Email: </em></strong>
+                     </dt>
+                    <dd>
+                        repania.phones@gmail.nl
+                    </dd>
+                    <dt>
+                        <strong><em>Call us:</em></strong>
+                     </dt> 
+                    <dd>
+                        0030694052745
+                    </dd>
+            
+                </dl>
+            </div>    
+
+            <h3 id="Taxes">Taxes :</h3>
+            <div class="LegalTerms">
+                
+                <p>In case you are wondering , Phonebooth provides :</p>
+               
+                <ul>
+                    <li>
+                        Crazy low prices
+                    </li>
+                
+                    <li>
+                        With 19 % <abbr title="Value-added Tax">V.A.T.</abbr> 
+                    </li>
+                </ul>
+            </div>
+
+        
+        </Section>
+    </body>
+
+    <footer>
+
+        <table>
+
+            <th> Phonebooth &copy; <th>
+        
+            <th>
+                <a href="#return">Returns </a>
+            </tH>            
+                
+            <th>
+                <a href="#shipping"> Shipping</a>
+            </th>
+                
+            <th> 
+                <a href="#contact"> Contact Us</a>
+            </th>      
+            
+            <th>
+                <a href="#products">Products</a>
+            </th>
+            
+            <th>
+                <a href="#Taxes">Taxes</a>
+            </th>    
+        
+            <th>
+
+                <nav class="Top">
+                    <ol type="A">
+                        <li class="Top"><a href="#">TOP </a>  </li>
+                    </ol>
+            
+                </nav>
+            </th>
+        </table>          
+
+        
+        
+    </footer>
+
+
+
+</html>
