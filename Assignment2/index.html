@@ -1,0 +1,340 @@
+<!--Created and tested by: Panagiotis Kyriakou G. and Christos Giorgallis (Lab-94) -->
+
+ <!--TESTED WITH : 
+                Microsoft Edge -> behaved as expected, exactly as the default browser, printing and 320x480 device attributes were as expected .   
+                Chrome-> behaved as expected, exactly as it is the default browser.
+                Firefox->behaved mostly as expected , exept the widows and the orphans weren't visible , also the submit button became submit quest for some reason...-->
+<!DOCTYPE html>
+ 
+
+<html lang ="en">
+   
+    
+ 
+    <head>  
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>The Phonebooth &copy; </title>
+
+        <link rel="icon" href="https://townsquare.media/site/366/files/2020/02/bill-and-ted-phone-booth-replica-cubicall.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89">
+        
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript"></script>
+    
+
+        <link rel="stylesheet" href="styles.css"> 
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+    
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        
+        crossorigin="anonymous"></script>
+    
+       
+     
+        <script src="Assignent2.js"></script>
+
+        
+       
+        
+      
+
+    </head >
+    
+    <body>
+      
+        <header>
+ 
+            <table>
+                <tfoot>
+                    <tr>
+
+                        <th class="headerfooter"> 
+                            Phonebooth &copy;
+
+                        </th>
+                    
+                
+                        <th class="headerfooter">
+                            <a href="#return">Returns </a>
+                        </th>            
+                            
+                        <th class="headerfooter">
+                            <a href="#shipping"> Shipping</a>
+                        </th>
+                            
+                        <th class="headerfooter"> 
+                            <a href="#contact"> Contact Us</a>
+                        </th>      
+                        
+                        <th class="headerfooter">
+                            <a href="#products">Products</a>
+                        </th>
+                        
+                        <t class="headerfooter">
+                            <a href="#Taxes">Taxes</a>
+                        </th>
+                        
+                        <th class="headerfooter">
+                            <a href="#ourstores">Our Stores</a>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>          
+
+        </header>
+    
+   
+        
+        <h1 id="logo">Phonebooth &copy;</h1>
+        <h1> Even Superman uses it....</h1>
+        
+        <figure>
+            <img id="superman" width="200" height="200" src="https://www.supermanhomepage.com/images/phonebooth/bell_booth1.jpg" alt="Superman!" >
+            <figcaption>Phonebooth &copy;</figcaption>
+        </figure>
+        
+    
+        <p>Here, we have searced and found the most cutting edge phones, on the <strong>craziest prices .</strong>  You can check it youselves!</p>
+        
+
+        <section id="formplusProducts">
+            <h4>Our Products:</h4>
+            
+            <form action= "https://wt.ops.labs.vu.nl/api22/cf2e9dfc" method="POST" >
+            
+            
+                
+                    <table  id="myTable2">
+                    
+                    <caption id=" products ">Products:</caption> 
+
+                    <thead>
+                    <tr>
+                       
+                    
+                        <th> Images:</th>
+                        <th id="brands" class="text">Brand :</th>
+                        <th id="models" class="text"> Model :</th>
+                        <th id="oses" class="text">OS :</th>
+                        <th id="screens" class="num"> screensize :</th>
+                        <th></th>
+                            
+                        
+                       
+                    
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    
+                        
+                    </tbody>
+            
+             
+                <tfoot>
+                    <tr>            
+                        <td>
+                            <span>
+                            
+                                <label for="image"> Image ( URL ):</label>
+                                <input type="url" name ="image" id="image" required>
+                            
+                            </span>
+                        </td>
+
+                        <td>
+                            <span>
+                            
+                                <label for="brand"> Brand Name:</label>
+                                <input type="text" name ="brand" id="brand" required>
+                            
+                            </span>
+                        </td>
+                        
+                        <td>
+                            <span>
+                            
+                            <label for="model"> Model Name:</label>
+                            <input type="text" name="model" id="model" required>
+                            </span>
+                        </td>
+                
+                        <td>
+                            <span>
+                        
+                                <label for="os"> Operating System:</label>
+                                <input type="text" name ="os" id="os" required>
+                        
+                            </span>
+                        </td>
+            
+                        <td>
+                            <span>
+                            
+                            <label for="screensize"> Screen Size:(in)</label>
+                            <input type="number" name="screensize" id="screensize" required>   
+                        
+                            
+                            </span>
+                        </td>    
+                        
+                        <td>
+                            <input type="submit">
+
+                        </td>
+                    </tr>
+                </tfoot>
+                    
+                </table>    
+                
+            </form>
+            <button type="button" id="reset" class="clickable">Reset</button>
+        </section>
+        
+        <h4><u>LegalTerms:</u></h4>
+
+        <section id="Legal-Terms">
+
+            <h3 id="return">Returns: </h3> 
+            
+            <div class="LegalTerms"> 
+                
+                <p>At Phonebooth,  all of our products with up to<strong id="2231"> 2 years waranty !!! </strong></p>
+                <br>
+                <br>
+            </div>
+        
+            <h3 id="shipping">Shipping:</h3> 
+            <div class="LegalTerms">
+            
+                <p>We are proud to anounce that we have expanded our shiping areas to the Netherlands <strong>FOR FREE !</strong> </p> 
+                <br>
+                <br>
+            
+            </div>
+
+            <h3 id="contact">Contact Us:</h3>
+            
+            <div class="LegalTerms">    
+            
+                <dl>
+                    <dt>
+                        <strong><em>Email: </em></strong>
+                    </dt>
+                    <dd>
+                        repania.phones@gmail.nl
+                    </dd>
+                    <dt>
+                        <strong><em>Call us:</em></strong>
+                    </dt> 
+                    <dd>
+                        0030694052745
+                    </dd>
+            
+                </dl>
+            </div>    
+
+            <h3 id="Taxes">Taxes :</h3>
+            <div class="LegalTerms">
+                
+                <p>In case you were wondering , Phonebooth provides :</p>
+            
+                <ul>
+                    <li>
+                        Crazy low prices
+                    </li>
+                
+                    <li>
+                        With 19 % <abbr title="Value-added Tax">V.A.T.</abbr> 
+                    </li>
+                </ul>
+            </div>
+            
+            <h3 id="ourstores">Our Stores </h3>
+        
+            <div class="LegalTerms">
+               <p>We have opened in :</p>
+                
+               <ol type="1">
+                    <li>
+                        Amsterdam Centraal
+                    </li>
+                    
+                    <li>
+                        Harlem
+                    </li>
+                    
+                    <li>
+                        Rotterdam
+                    </li>
+                
+                </ol>
+                 
+                <p>And Many more Soon! </p>
+            </div>
+
+        </section>
+    
+    
+        <footer>
+            
+            <table>
+                <tfoot>
+                   <tr>
+                        <th class="headerfooter"> 
+                            Phonebooth &copy;
+                        </th>
+                    
+                        <th class="headerfooter">
+                            <a href="#return">Returns </a>
+                        </th>            
+                            
+                        <th class="headerfooter">
+                            <a href="#shipping"> Shipping</a>
+                        </th>
+                            
+                        <th class="headerfooter"> 
+                            <a href="#contact"> Contact Us</a>
+                        </th>      
+                        
+                        <th class="headerfooter">
+                            <a href="#products">Products</a>
+                        </th>
+                        
+                        <th class="headerfooter">
+                            <a href="#Taxes">Taxes</a>
+                        </th>    
+                        
+                        <th class="headerfooter">
+                            <a href="#ourstores">Our Stores</a>
+                        </th>
+                        <th class="headerfooter">
+                            <a href="#Top">TOP</a>
+                        </th>
+
+                     </tr>
+
+                </tfoot>
+            
+            </table>
+            
+           
+            <nav class="Top">
+                <ol type="A">
+                    <li class="Top"> <a href="#">TOP </a></li>
+                </ol>
+        
+            
+            </nav>
+
+        
+                        
+        </footer>
+        
+    </body>    
+</html>
